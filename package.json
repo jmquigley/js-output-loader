@@ -1,6 +1,6 @@
 {
   "name": "js-output-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "jmquigley <jmquigley@outlook.com>",
   "description": "Takes webpack loader module output and writes it to its corresponding javascript file",
   "private": false,
