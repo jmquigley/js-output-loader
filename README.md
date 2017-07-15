@@ -14,6 +14,11 @@ Benefits:
 - The bundle is still created, so it doesn't interfer with normal bundle creation.
 - The `.js` files are updated by the webpack watcher when the parent file is changed.
 
+## Requirements
+
+- Node 7.5+
+- Webpack 2.x+
+- Yarn >= 0.28.x or NPM >= 5.0.x
 
 ## Installation
 
@@ -29,6 +34,7 @@ $ yarn add --dev js-output-loader
 ## Configuration
 
 ```
+	...
 	module: {
 		rules: [
 			{
@@ -36,7 +42,8 @@ $ yarn add --dev js-output-loader
 				exclude: /node_modules|dist/,
 				loader: 'js-output-loader!babel-loader!awesome-typescript-loader'
 			},
+	...
 
 ```
 
-This module should be placed first in the loader list (which means it is used last by webpack...)
+This module should be placed first in the loader list (which means it is used last by webpack...).
