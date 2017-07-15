@@ -1,0 +1,22 @@
+{
+  "name": "js-output-loader",
+  "version": "0.0.0",
+  "author": "jmquigley <jmquigley@outlook.com>",
+  "description": "Takes webpack loader module output and writes it to its corresponding javascript file",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmquigley/js-output-loader"
+  },
+  "bugs": {
+    "url": "https://github.com/jmquigley/js-output-loader/issues"
+  },
+  "engines": {
+    "node": ">=7.5"
+  },
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  },
+  "main": "./index.js"
+}
