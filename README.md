@@ -40,7 +40,7 @@ $ yarn add --dev js-output-loader
 			{
 				test: /\.tsx?$/,
 				exclude: /node_modules|dist/,
-				loader: 'js-output-loader!babel-loader!awesome-typescript-loader'
+				loader: 'js-output-loader!awesome-typescript-loader?useBabel=true&useCache=true'
 			},
 	...
 
